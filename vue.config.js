@@ -1,5 +1,5 @@
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/Arun-P-Resume/' // Replace with your repository name
+    ? '/Arunkmar.P_resume/' // Replace 'repository-name' with your actual repo name
     : '/'
-}
+};
