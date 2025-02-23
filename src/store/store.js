@@ -8,6 +8,7 @@ const state = reactive({
       last_name: 'P',
       address: 'B-2,44,VedhaFlats, Pine Street, Tirutheri SingaperumalKovil:[603204].',
       mail_id: 'arunfozy@gmail.com',
+      phone_number: '+91 9787321206',
       role: 'I am an experienced web developer with a strong focus on leveraging modern web development frameworks to design and build scalable, user-centric applications. With a deep understanding of agile methodologies, I ensure the efficient delivery of high-quality solutions while embracing continuous improvement. My work is driven by a passion for creating seamless user experiences and optimizing performance, while maintaining a commitment to collaborative teamwork and innovation.',
       github_link: 'https://github.com/Arun-kumarP',
       linkedin_link: 'https://www.linkedin.com/in/arunkumar-p-7a7608261',

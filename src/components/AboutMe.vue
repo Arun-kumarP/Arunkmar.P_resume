@@ -7,7 +7,8 @@
         </h1>
         <div class="subheading mb-5">
             {{ state.my_about.address}}
-            <a href="mailto:arunfozy@gmail.com">{{ state.my_about.mail_id}}</a>
+            <a href="mailto:arunfozy@gmail.com">{{ state.my_about.mail_id}}.</a>&nbsp;&nbsp;
+            <span>Ph : {{ state.my_about.phone_number }}.</span>
         </div>
         <p class="lead mb-5">
             {{ state.my_about.role}}
