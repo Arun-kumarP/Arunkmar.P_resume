@@ -6,9 +6,9 @@
             <span class="text-primary"> {{ state.my_about.last_name}}</span>
         </h1>
         <div class="subheading mb-5">
-            {{ state.my_about.address}}
-            <a href="mailto:arunfozy@gmail.com">{{ state.my_about.mail_id}}.</a>&nbsp;&nbsp;
-            <span>Ph : {{ state.my_about.phone_number }}.</span>
+            {{ state.my_about.address}}&nbsp;&nbsp;
+            <a href="mailto:arunfozy@gmail.com">{{ state.my_about.mail_id}}</a>&nbsp;&nbsp;
+            <span>{{ state.my_about.phone_number }}.</span>
         </div>
         <p class="lead mb-5">
             {{ state.my_about.role}}
