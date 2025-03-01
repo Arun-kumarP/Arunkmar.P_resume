@@ -6,13 +6,15 @@ const state = reactive({
     about: {
       first_name: 'Arunkumar',
       last_name: 'P',
-      address: 'B-2,44,VedhaFlats, Pine Street, Tirutheri SingaperumalKovil:[603204].',
+      address: ' Chennai,',
+      address_icon: require('@/assets/icons/address.svg'),
       mail_id: 'arunfozy@gmail.com',
+      mail_id_icon: require('@/assets/icons/mail.svg'),
       phone_number: '+91 9787321206',
+      phone_number_icon: require('@/assets/icons/phone.svg'),
       role: 'I am an experienced web developer with a strong focus on leveraging modern web development frameworks to design and build scalable, user-centric applications. With a deep understanding of agile methodologies, I ensure the efficient delivery of high-quality solutions while embracing continuous improvement. My work is driven by a passion for creating seamless user experiences and optimizing performance, while maintaining a commitment to collaborative teamwork and innovation.',
       github_link: 'https://github.com/Arun-kumarP',
       linkedin_link: 'https://www.linkedin.com/in/arunkumar-p-7a7608261',
-      instagram_link: 'https://www.instagram.com/_arunified?igsh=cXo5c3E0bmxsbno4&utm_source=qr',
       profile_image: require('@/assets/img/Arun.jpeg')
     },
     education: [
@@ -21,15 +23,8 @@ const state = reactive({
         degree: "BE - Production Engineer",
         link: "https://gct.ac.in/",
         gpa: "GPA: 8.1",
-        dates: "2018 - 2021",
-      },
-      {
-        school: "SRNM Polytechnic College - Sattur",
-        degree: "DME - Mechanical Engineer",
-        link: "https://srnmcollege.ac.in/",
-        gpa: "GPA: 8.2",
-        dates: "2015 - 2018",
-      },
+        dates: "2018 - 2021"
+      }
     ],
     skills: {
       programming_language_and_tools: {

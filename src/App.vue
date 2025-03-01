@@ -37,8 +37,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';  // Import Bootstrap CSS
 import * as bootstrap from 'bootstrap';        // Import Bootstrap JS
 import AboutMe from "./components/AboutMe.vue";
 import ExperienceMe from "./components/Experience_tcs.vue";
-import EducationMe from "./components/EducationMe.vue";
-import SkillsMe from "./components/SkillsMe.vue";
+import SkillsAndEducationMe from "./components/SkillsAndEducationMe.vue";
 import store from './store/store';  
 
 export default defineComponent({
@@ -46,8 +45,7 @@ export default defineComponent({
   components: {
     AboutMe,
     ExperienceMe,
-    EducationMe,
-    SkillsMe
+    SkillsAndEducationMe
   },
   setup() {
     // Access store's my_Details directly in the component setup
@@ -59,8 +57,7 @@ export default defineComponent({
       sections :[
       { id: "about", label: "About", component: AboutMe },
       { id: "experience", label: "Experience", component: ExperienceMe },
-      { id: "skills", label: "Skills", component: SkillsMe },
-      { id: "education", label: "Education", component: EducationMe },
+      { id: "skills-and-education", label: "skills-and-education", component: SkillsAndEducationMe },
     ],
       name: my_details.about.first_name + ' ' + my_details.about.last_name,
       profile_image: my_details.about.profile_image,
