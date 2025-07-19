@@ -7670,7 +7670,7 @@ textarea.form-control-lg {
 }
 
 .mb-3 {
-  margin-bottom: 1rem !important;
+  margin-bottom: 0rem !important;
 }
 
 .mb-4 {
@@ -7678,7 +7678,7 @@ textarea.form-control-lg {
 }
 
 .mb-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 2rem !important;
 }
 
 .mb-auto {
@@ -10861,7 +10861,7 @@ h6,
 }
 
 h1, .h1 {
-  line-height: 1;
+  line-height: 2;
 }
 
 p.lead {
@@ -10874,6 +10874,7 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+  display: flex;
 }
 
 #sideNav {
@@ -10961,7 +10962,7 @@ section.resume-section {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 1rem;
-  padding-bottom: 5rem;
+  padding-bottom: 0rem;
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
@@ -10979,5 +10980,11 @@ section.resume-section .resume-section-content {
     padding-right: 3rem;
     padding-top: 1rem;
     padding-bottom: 5rem;
+  }
+}
+@media (max-width: 768px) { /* Mobile devices */
+  .subheading {
+    font-size: 1.5rem;
+    display: block;
   }
 }

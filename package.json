@@ -2,11 +2,13 @@
   "name": "resume_project",
   "version": "0.1.0",
   "private": true,
-"scripts": {
-  "deploy": "gh-pages -d dist",
-  "build": "vue-cli-service build"
-},
-
+  "homepage": "https://arunkumarp.github.io/Arunkmar.P_resume/",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "deploy": "vue-cli-service build && gh-pages -d dist"
+  },
   "dependencies": {
     "bootstrap": "^5.3.3",
     "core-js": "^3.8.3",
